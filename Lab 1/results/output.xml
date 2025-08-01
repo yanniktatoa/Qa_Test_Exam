@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-07-28T14:27:03.377242" rpa="false" schemaversion="5">
+<suite id="s1" name="Lab 1" source="C:\Users\Jesus Curry\Downloads\Lab 1">
+<suite id="s1-s1" name="Testcases" source="C:\Users\Jesus Curry\Downloads\Lab 1\testcases">
+<suite id="s1-s1-s1" name="Test Category" source="C:\Users\Jesus Curry\Downloads\Lab 1\testcases\test_category.robot">
+<kw name="Connexion MongoDB" owner="keywords" type="SETUP">
+<kw name="Connect To MongoDB" owner="MongoDB">
+<msg time="2025-07-28T14:27:03.531529" level="INFO">Connecting to MongoDB: mongodb+srv://admin:admin2002@cluster0.4fy6slj.mongodb.net/ma_base?retryWrites=true&amp;w=majority</msg>
+<msg time="2025-07-28T14:27:04.507131" level="INFO">Successfully connected to database: Fakestore</msg>
+<arg>${MONGODB_URI}</arg>
+<arg>${DB_NAME}</arg>
+<doc>Connect to MongoDB with the given URI and database name.</doc>
+<status status="PASS" start="2025-07-28T14:27:03.531029" elapsed="0.976517"/>
+</kw>
+<status status="PASS" start="2025-07-28T14:27:03.530518" elapsed="0.977307"/>
+</kw>
+<test id="s1-s1-s1-t1" name="Delete Category - Bad Format ID" line="59">
+<kw name="Delete Category" owner="MongoDB">
+<msg time="2025-07-28T14:27:04.513218" level="INFO">Deleting category with ID: {'_id': 'afgfg2232'}</msg>
+<msg time="2025-07-28T14:27:04.587574" level="WARN">No category found with ID: {'_id': 'afgfg2232'}</msg>
+<arg>${TEST_BAD_FORMAT_ID}</arg>
+<doc>Delete a category by ID.</doc>
+<status status="PASS" start="2025-07-28T14:27:04.511478" elapsed="0.077622"/>
+</kw>
+<tag>Delete</tag>
+<tag>Invalid</tag>
+<status status="PASS" start="2025-07-28T14:27:04.508003" elapsed="0.082636"/>
+</test>
+<kw name="Deconnexion MongoDB" owner="keywords" type="TEARDOWN">
+<kw name="Disconnect From MongoDB" owner="MongoDB">
+<msg time="2025-07-28T14:27:04.596593" level="INFO">Disconnecting from MongoDB</msg>
+<doc>Disconnect from MongoDB.</doc>
+<status status="PASS" start="2025-07-28T14:27:04.596211" elapsed="0.076719"/>
+</kw>
+<status status="PASS" start="2025-07-28T14:27:04.595325" elapsed="0.078333"/>
+</kw>
+<status status="PASS" start="2025-07-28T14:27:03.404323" elapsed="1.269631"/>
+</suite>
+<status status="PASS" start="2025-07-28T14:27:03.401650" elapsed="1.280170"/>
+</suite>
+<status status="PASS" start="2025-07-28T14:27:03.381756" elapsed="1.305730"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Delete</stat>
+<stat pass="1" fail="0" skip="0">Invalid</stat>
+</tag>
+<suite>
+<stat name="Lab 1" id="s1" pass="1" fail="0" skip="0">Lab 1</stat>
+<stat name="Testcases" id="s1-s1" pass="1" fail="0" skip="0">Lab 1.Testcases</stat>
+<stat name="Test Category" id="s1-s1-s1" pass="1" fail="0" skip="0">Lab 1.Testcases.Test Category</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-07-28T14:27:04.587574" level="WARN">No category found with ID: {'_id': 'afgfg2232'}</msg>
+</errors>
+</robot>
