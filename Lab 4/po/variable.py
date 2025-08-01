@@ -1,0 +1,16 @@
+REMOTE_URL = "http://127.0.0.1:4723"        
+PLATFORM_NAME = "Android"
+DEVICE_NAME = "sdk_gphone64_x86_64"
+PLATFORM_VERSION = "16.0"
+APP_ACTIVITY = ".MainActivity"
+APP_PACKAGE = "sn.sonatel.dsi.moussa.wade.moussawade"
+AUTOMAT_NAME = "uiautomator2"
+
+CREDENTIALS = "david_r"
+PASSWD= "3478*#54"
+
+TITLE = "Montre Connectée"
+PRICE = "12000"
+DESCRIPTION = "Montre GPS étanche et multisport"
+CATEGORIE = "Électronique"
+URL = "https://www.bing.com/images/search?view=detailV2&ccid=RhCktcsP&id=6F8445CFD8E8ECA59D4A1AB9787318DA8192510A&thid=OIP.RhCktcsP6BIhCWlv8iQJegHaHc&mediaurl=https%3a%2f%2fm.media-amazon.com%2fimages%2fI%2f61BgvQQ5k0L._AC_SL1500_.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.4610a4b5cb0fe8122109696ff224097a%3frik%3dClGSgdoYc3i5Gg%26pid%3dImgRaw%26r%3d0&exph=1500&expw=1492&q=montre+connect%c3%a9e&simid=607995056167988831&FORM=IRPRST&ck=848434D399A31A18ECC7E2A187340A6A&selectedIndex=0&itb=0"
