@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-07-27T22:09:29.785039" rpa="false" schemaversion="5">
+<suite id="s1" name="Lab 2" source="C:\Users\Jesus Curry\Downloads\QA Test Exam\Lab 2">
+<suite id="s1-s1" name="Testcases" source="C:\Users\Jesus Curry\Downloads\QA Test Exam\Lab 2\testcases">
+<suite id="s1-s1-s1" name="Customer Service" source="C:\Users\Jesus Curry\Downloads\QA Test Exam\Lab 2\testcases\customer_service.robot">
+<test id="s1-s1-s1-t1" name="Home page should load" line="6">
+<kw name="Open browser on home page" owner="keywords">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-07-27T22:09:31.098104" level="INFO">Opening browser 'chrome' to base url 'https://automationplayground.com/crm/index.html'.</msg>
+<arg>${HOME_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-07-27T22:09:31.097657" elapsed="7.402862"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-07-27T22:09:38.500795" elapsed="0.053669"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>${PAGE_TEXT}</arg>
+<arg>10</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2025-07-27T22:09:38.554758" elapsed="0.033416"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-07-27T22:09:43.589519" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-07-27T22:09:38.588481" elapsed="5.001981"/>
+</kw>
+<status status="PASS" start="2025-07-27T22:09:31.096252" elapsed="12.494698"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-07-27T22:09:43.592032" elapsed="2.175853"/>
+</kw>
+<tag>Home</tag>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-07-27T22:09:31.095078" elapsed="14.673316"/>
+</test>
+<status status="PASS" start="2025-07-27T22:09:29.816970" elapsed="15.952690"/>
+</suite>
+<status status="PASS" start="2025-07-27T22:09:29.813675" elapsed="15.957578"/>
+</suite>
+<status status="PASS" start="2025-07-27T22:09:29.791227" elapsed="15.983178"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Home</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+</tag>
+<suite>
+<stat name="Lab 2" id="s1" pass="1" fail="0" skip="0">Lab 2</stat>
+<stat name="Testcases" id="s1-s1" pass="1" fail="0" skip="0">Lab 2.Testcases</stat>
+<stat name="Customer Service" id="s1-s1-s1" pass="1" fail="0" skip="0">Lab 2.Testcases.Customer Service</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
