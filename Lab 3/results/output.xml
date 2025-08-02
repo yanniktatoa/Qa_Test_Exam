@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-08-02T10:13:00.196701" rpa="false" schemaversion="5">
+<suite id="s1" name="Lab 3" source="C:\Users\Jesus Curry\Downloads\Lab 3">
+<suite id="s1-s1" name="Tests" source="C:\Users\Jesus Curry\Downloads\Lab 3\tests">
+<suite id="s1-s1-s1" name="Test Ebay" source="C:\Users\Jesus Curry\Downloads\Lab 3\tests\test_ebay.robot">
+<test id="s1-s1-s1-t1" name="Issue Refund" line="17">
+<kw name="Issue Refund" owner="keywords">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2025-08-02T10:13:00.689882" level="INFO">Creating Session using : alias=ebay, url=https://api.ebay.com/sell/fulfillment/v1, headers={'Authorization': 'Bearer v^1.1#i^1#p^3#r^0#f^0#I^3#t^H4sIAAAAAAAA/+1ZXYwbVxW29yclLUkfoCSEgtwJLYjN2HfG85/YkeP1xs7aa9d2ltRt5N6ZuWPPejwzmTuzG0uomK2IAKUUFKlqFdFG0ARVrQQ8RGkrFKWVWlVV1VQVNDyAFF4KElGpVEJARYgZ70+cbUkUvKKWYF7se+fMuef7zs+dMxd0N2z82pHskSubwreMnOiC7kg4TN0GNm4Yn9g8OrJtPAT6BMInul/uji2O/nEXhm3DlsoI25aJUeRw2zCx1JtMEJ5jShbEOpZM2EZYchWpkirkJToKJNuxXEuxDCKSm0wQFMXGEeIQIzKiqIC4P2uu6KxaCYKjeE2mGZqmBIVRBeDfx9hDORO70HQTBA1olgQCCegqEKU4LwEQ5RihRkRmkYN1y/RFooBI9syVes86fbZe31SIMXJcXwmRzKWmKsVUbjIzU90V69OVXOah4kLXw9eO0paKIrPQ8ND1l8E9aaniKQrCmIgll1a4VqmUWjHmPzC/RzXSoMazmgAgI0OB5taFyinLaUP3+nYEM7pKaj1RCZmu7nZuxKjPhjyHFHd5NOOryE1Ggp97PWjomo6cBJHZk7pvfyVTJiKVUsmx5nUVqQFSmue4OCtScY5IziGSBxTFscuLLGlapnjNKmnLVPWAMByZsdw9yLcYreWF7uPFFyqaRSeluYE1fXIUtcofUwscuuRBz22agU9R2ych0hvemP2VcLgaAOsVEDxDQSAKAiUDIIui9rEBEeT6TQZFMvBLqlSKBbYgGXbINnRayLUNqCBS8en12sjRVSnOanRc0BCpcqJGMqKmkTKrciSlIQQQkmVFFP5XYsN1HV32XLQaH2tv9AAmiIpi2ahkGbrSIdaK9GrNcjQcxgmi6bq2FIstLCxEF+JRy2nEaACo2IFCvqI0URsSq7L6jYVJvRcXCvKfwrrkdmzfmsN+2PmLmw0iGXfUEnTcTgUZhj+xErTX2JZcO/tvQKYN3Weg6i8xXBizFnaROhA0Fc3rCqrr6nAho2mWY4NcpwHDCADQA4E0rIZuFpDbtIYM5t5icW8+MxA2v4BCd7hQ9VcherkKsQJDguDfQGBTtp1rtz0XygbKDZkv2TgTZ5mB4NmeN2yJKHbs+XnUNJzWoYGgBfuupENNcq0WMj9aSoNc/6SxljNT5UwlW68WpzMzA6EtI81BuFkNsA5bnKbuTU2n/KtQoLRM1lzQZ4tgonFgBhzq8Fluju/IhRrL76OMtCNjp5apWty+oplmU6WJ3EyBrsmlaeYQFgyYSiQGIqmCFAcNWekCE3SZn8V0FqSnixU0r5VrRdR2FvJm6UAtu2c/YzQPx/aJRk5gBgNfaAxbpve23HXZbqsfn+KrAINc/4RAOkuJWe9Vobo/GghopjF09ZqjGIoDqkCJfmOtagrDA1qkIKVpvApoiAbefocM7z6EPZz2HNImS+VJUqFlESiURpEa1KAgiINFsj10/l2v/RgHfdt/AVqQ6zcBL9CBfSXQ1qPBK0NUsdoxC3puM5iq96yOYb+li2qeoemGEbSmUQdB1TKNTuQmHtfNwAw82Ls3UnXH78nrnqMPV5isENG2TGjbfTQo0DBkqLQGwh1oGsZ2Kje5Du9uk2h+2IociFNAoRFHyqrGkYzAs6QIgOrXOJEVWcTTmsANhHl9WsixxRFjHVFTPMtQNE8Lg/WMZQSN9nD503Ys1VOCr3f/R7Zmou9740c+M8euPeNJhnoXtRh+GSyGz46Ew2AXuJvaDu7aMLp/bPTT27Duoqjfc0ax3jCh6zko2kIdG+rOyGdC5zfn1W9l85e7snfm63/ZLYQ29R0xnTgItq4eMm0cpW7rO3ECd169M07dvmUTzQIB0ECM8wDUwPard8eoz419Vj/6yogTyr+TPB2S5W3ZlneGuwVsWhUKh8dDY4vh0JT21ff3bn/sV2ln9NVft9DRzNzU04/+pHHlneqZdnTx2BM7uOLf7r7zrUdDjxRamfGv3L+nduH1D90Dv3+A+d7xty89/KXjr+5o1Lv5LfaxzMFvdL95z0Pj5IuX3Kd+SF2+9dzWaeuceNY5eGZu9xs/g0fxxR8c//bW3zx17ndP/vw7rZT6wem3d5x//OQRdef5U41nkhfveObW8Xsq5378h3+UXrh4OXPo85M7T+/84P7fvvv+7Se/+8833/v+6YnFLY8lT9717uJ9f66nX/vCh7Pdknsi8an3rlx4cPfxHcqlzc+6cqd56sEn83868ouzx/DBnY2XYs8//BB/6qd/vSCefeC1v9cjbz73xtMc+wrzoxe/+Mutz3eWfPkv4R/c0PwbAAA=', 'Content-Type': 'application/json', 'Accept': 'application/json'},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>ebay</arg>
+<arg>${BASE_URL}</arg>
+<arg>headers=${HEADERS}</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2025-08-02T10:13:00.689525" elapsed="0.001285"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-08-02T10:13:00.691365" level="INFO">${body} = {'refundReason': 'BUYER_CANCELLED', 'comments': 'Test refund'}</msg>
+<var>${body}</var>
+<arg>refundReason=BUYER_CANCELLED</arg>
+<arg>comments=Test refund</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-08-02T10:13:00.690996" elapsed="0.000573"/>
+</kw>
+<kw name="POST On Session" owner="RequestsLibrary">
+<msg time="2025-08-02T10:13:01.904003" level="INFO">POST Request : url=https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund 
+ path_url=/sell/fulfillment/v1/order/123456789/issue_refund 
+ headers={'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate, zstd', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Authorization': 'Bearer v^1.1#i^1#p^3#r^0#f^0#I^3#t^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', 'Content-Type': 'application/json', 'Content-Length': '62'} 
+ body=b'{"refundReason": "BUYER_CANCELLED", "comments": "Test refund"}' 
+ </msg>
+<msg time="2025-08-02T10:13:01.904699" level="INFO">POST Response : url=https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund 
+ status=400, reason=Bad Request 
+ headers={'Connection': 'keep-alive', 'Content-Length': '127', 'x-ebay-pop-id': 'UFES2-RNOAZ05-api', 'set-cookie': 'JSESSIONID=087A7B8BF1F07D2043723D219D0555C1; Path=/; HttpOnly', 'rlogid': 't6shrfgostwhciwdvn%60jhs9%3Fvjwdbmvvrjfkrfslehmq%2B0ea%3E35ge16%28r3e7a-1986a454e3b-0x233b', 'x-envoy-upstream-service-time': '77', 'content-type': 'application/json', 'server': 'ebay-proxy-server', 'traceid': '80b358145af686c82d5c8007d740dd9a', 'Accept-Ranges': 'bytes', 'Date': 'Sat, 02 Aug 2025 10:13:03 GMT', 'Via': '1.1 varnish', 'X-Served-By': 'cache-lis1490043-LIS, cache-lis1490043-LIS', 'X-Cache': 'MISS, MISS', 'X-Cache-Hits': '0, 0', 'X-Timer': 'S1754129583.183378,VS0,VE628', 'x-CDN': 'Fastly', 'Strict-Transport-Security': 'max-age=31557600'} 
+ body={"errors":[{"errorId":34903,"domain":"API_FULFILLMENT","category":"REQUEST","message":"The refund reason must be specified."}]} 
+ </msg>
+<msg time="2025-08-02T10:13:01.905127" level="INFO">C:\Users\Jesus Curry\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'api.ebay.com'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2025-08-02T10:13:01.906554" level="FAIL">HTTPError: 400 Client Error: Bad Request for url: https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund</msg>
+<var>${resp}</var>
+<arg>ebay</arg>
+<arg>${issueRefund_endpoint.replace('{orderId}', '${ORDER_ID_INVALID}')}</arg>
+<arg>json=${body}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<status status="FAIL" start="2025-08-02T10:13:00.691729" elapsed="1.228294">HTTPError: 400 Client Error: Bad Request for url: https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund</status>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Status: ${resp.status_code}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-08-02T10:13:01.920230" elapsed="0.000156"/>
+</kw>
+<kw name="Convert To String" owner="BuiltIn">
+<var>${body}</var>
+<arg>${resp.content}</arg>
+<doc>Converts the given item to a Unicode string.</doc>
+<status status="NOT RUN" start="2025-08-02T10:13:01.920508" elapsed="0.000103"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Body: ${body}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2025-08-02T10:13:01.920701" elapsed="0.000094"/>
+</kw>
+<status status="FAIL" start="2025-08-02T10:13:00.688980" elapsed="1.231942">HTTPError: 400 Client Error: Bad Request for url: https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund</status>
+</kw>
+<tag>ebay</tag>
+<tag>Issue_Refund</tag>
+<status status="FAIL" start="2025-08-02T10:13:00.686137" elapsed="1.235338">HTTPError: 400 Client Error: Bad Request for url: https://api.ebay.com/sell/fulfillment/v1/order/123456789/issue_refund</status>
+</test>
+<status status="FAIL" start="2025-08-02T10:13:00.246134" elapsed="1.696597"/>
+</suite>
+<status status="FAIL" start="2025-08-02T10:13:00.240914" elapsed="1.709147"/>
+</suite>
+<status status="FAIL" start="2025-08-02T10:13:00.203547" elapsed="1.752542"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">ebay</stat>
+<stat pass="0" fail="1" skip="0">Issue_Refund</stat>
+</tag>
+<suite>
+<stat name="Lab 3" id="s1" pass="0" fail="1" skip="0">Lab 3</stat>
+<stat name="Tests" id="s1-s1" pass="0" fail="1" skip="0">Lab 3.Tests</stat>
+<stat name="Test Ebay" id="s1-s1-s1" pass="0" fail="1" skip="0">Lab 3.Tests.Test Ebay</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
